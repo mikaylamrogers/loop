@@ -4,55 +4,55 @@ let contentGridElement = document.getElementById('contentGrid');
 
 let jsonDatabase = [
   {
-    "product_image" : "alex.png",
+    "product_image" : "example.jpg",
     "product_name" : "product one",
      "price" : "100USD",
      "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "anri.png",
+    "product_image" : "example.jpg",
     "product_name" : "product two",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "brandon.png",
+    "product_image" : "example.jpg",
     "product_name" : "product three",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "conan.png",
+    "product_image" : "example.jpg",
     "product_name" : "product four",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "eric.png",
+    "product_image" : "example.jpg",
     "product_name" : "product five",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "julian.png",
+    "product_image" : "example.jpg",
     "product_name" : "product six",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "julie.png",
+    "product_image" : "example.jpg",
     "product_name" : "product seven",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "kahlil.png",
+    "product_image" : "example.jpg",
     "product_name" : "product eight",
     "price" : "100USD",
     "description" : "product description blah blah blah",
   },
   {
-    "product_image" : "kane.png",
+    "product_image" : "example.jpg",
     "product_name" : "product nine",
     "price" : "100USD",
     "description" : "product description blah blah blah"
@@ -75,7 +75,7 @@ function createElementProper(incomingJSON) {
 let newContentElement = document.createElement("DIV");
 
 let newImage = document.createElement("IMG");
-newImage.classList.add("profilePicture");
+newImage.classList.add("productPhoto");
 newImage.src = incomingJSON['product_image'];
 newContentElement.appendChild(newImage);
 contentGridElement.appendChild(newContentElement);
