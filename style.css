@@ -1,0 +1,74 @@
+body {
+  margin: 5vw 5vw 0px 5vw;
+  background-color: #ebebeb;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  line-height: 0px;
+  margin-top: 0;
+}
+
+.topnav {
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.topnav a, .topnav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 6px;
+  margin-top: 0;
+}
+
+h5 {
+  letter-spacing: 1px;
+  font-size: 11px;
+  line-height: 10px;
+}
+
+h6 {
+  letter-spacing: 1px;
+  font-size: 10px;
+  line-height: 5px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1vmin;
+  grid-column-gap: 5vmin;
+  grid-row-gap: 20vmin;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 0.25vmin;
+  padding: 80px;
+}
+
+/* #contentGrid:first-child  {
+display: flex;
+flex-direction: column;
+padding: 1vmin;
+border: 2px solid black;
+border-radius: 0.25vmin;
+height: 100%;
+} */
+
+
+.profilePicture {
+  width: 100%;
+}
