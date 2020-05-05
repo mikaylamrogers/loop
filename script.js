@@ -1,14 +1,3 @@
-// title.addEventListener("mouseover", function(){
-//   title.innerHTML = "(first generation)";
-//   title.style.color = "rgb(255, 194, 217)";
-//   title.style.transition = "1s";
-// })
-//
-// title.addEventListener("mouseout", function(){
-//   title.innerHTML = "the rogers cousins";
-//   title.style.color = "rgb(23, 128, 66";
-// })
-
 let outputElement = document.getElementById('outputElement');
 let outputParagraph = document.getElementById('outputParagraph');
 let contentGridElement = document.getElementById('contentGrid');

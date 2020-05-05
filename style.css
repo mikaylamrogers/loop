@@ -4,15 +4,30 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+marquee > p {
+  /* background-color: white; */
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 0;
+  color: black;
+}
+
+marquee a:link, marquee a:visited, marquee a:active, marquee a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 h1 {
-  font-size: 40px;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 8vh;
   text-align: left;
   line-height: 0px;
-  margin-top: 0;
 }
 
 .topnav {
-  font-size: 15px;
+  font-size: 2.2vh;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   box-sizing: border-box;
@@ -25,20 +40,20 @@ h1 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 2.5vh;
   line-height: 6px;
   margin-top: 0;
 }
 
 h5 {
   letter-spacing: 1px;
-  font-size: 11px;
+  font-size: 1.5vh;
   line-height: 10px;
 }
 
 h6 {
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 1.4vh;
   line-height: 5px;
 }
 
@@ -71,4 +86,21 @@ height: 100%;
 
 .profilePicture {
   width: 100%;
+}
+
+footer, footer a:link, footer a:visited, footer a:active {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+footer a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.porupine {
+  font-size: 3vh;
 }
