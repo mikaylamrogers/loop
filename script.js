@@ -1,7 +1,9 @@
+// name variables for event listeners
 let outputElement = document.getElementById('outputElement');
 let outputParagraph = document.getElementById('outputParagraph');
 let contentGridElement = document.getElementById('contentGrid');
 
+// jsonDatabase for all products
 let jsonDatabase = [
   {
      "product_image" : "plates.jpg",
@@ -80,49 +82,27 @@ newImage.src = incomingJSON['product_image'];
 newContentElement.appendChild(newImage);
 contentGridElement.appendChild(newContentElement);
 
-// add event listener to rotate images on mouseover
-// newImage.addEventListener("mouseover", function(){
-//   newImage.style.transform = "rotate(360deg)";
-//   newImage.style.transition = "3s";
-// })
-//
-//   newImage.addEventListener("mouseout", function(){
-//     newImage.style.transform = "rotate(0deg)";
-//   })
+// add event listener to add text images on mouseover (NOT WORKING)
+newImage.addEventListener("mouseover", function(){
+  newImage.getElementById("productPhoto").innerText = "HELLO";
+  // newImage.getElementById("productPhoto").style.opacity = "3s";
+})
+
+  // newImage.addEventListener("mouseout", function(){
+  //   newImage.getElementById("productPhoto").style.opacity = "1";
+  // })
 
 let newContentHeading = document.createElement("H3");
  // newContentHeading.classList.add('contentTitle');
  newContentHeading.innerHTML = incomingJSON['product_name'];
  newContentElement.appendChild(newContentHeading);
 
- // newContentHeading.addEventListener("mouseover", function(){
- //   newContentHeading.style.color = "rgb(62, 181, 110)";
- //   newContentHeading.style.transition = "0.5s";
- // })
- //
- // newContentHeading.addEventListener("mouseout", function(){
- //   newContentHeading.style.color = "rgb(23, 128, 66)";
- // })
-
  let newContentSubheading = document.createElement("H5");
   // newContentHeading.classList.add('contentTitle');
   newContentSubheading.innerHTML = incomingJSON['price'];
   newContentElement.appendChild(newContentSubheading);
 
-  // newContentSubheading.addEventListener("mouseover", function(){
-  //   newContentSubheading.style.color = "rgb(255, 194, 217)";
-  //   newContentSubheading.style.transform = "scale(1.3)";
-  //   newContentSubheading.style.transition = "1s";
-  // })
-  //
-  // newContentSubheading.addEventListener("mouseout", function(){
-  //   newContentSubheading.style.color = "rgb(23, 128, 66)";
-  //   newContentSubheading.style.transform = "scale(1)";
-  // })
-
   let newContentSubheading2 = document.createElement("H6");
-   // newContentHeading.classList.add('contentTitle');
    newContentSubheading2.innerHTML = incomingJSON['description'];
    newContentElement.appendChild(newContentSubheading2);
-
 }

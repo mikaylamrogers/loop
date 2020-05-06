@@ -1,11 +1,12 @@
+/* basic spacing, font, background color for page */
 body {
   margin: 5vw 5vw 0px 5vw;
   background-color: #ebebeb;
   font-family: 'Work Sans', sans-serif;
 }
 
+/* spacing & position for text within marquee div */
 marquee > p {
-  /* background-color: white; */
   height: 3vh;
   overflow: hidden;
   position: relative;
@@ -13,19 +14,22 @@ marquee > p {
   color: black;
 }
 
+/* remove underline from all states of marquee links */
 marquee a:link, marquee a:visited, marquee a:active, marquee a:hover {
   color: black;
   text-decoration: underline;
 }
 
+/* spacing & position for header, LOOP WELLNESS */
 h1 {
   margin-top: 0;
   padding-top: 0;
-  font-size: 8vh;
+  font-size: 8vmin;
   text-align: left;
   line-height: 0vh;
 }
 
+/* nav bar spacing & size */
 .topnav {
   font-size: 2.2vh;
   display: grid;
@@ -34,22 +38,31 @@ h1 {
   text-align: right;
 }
 
+/* remove underline for all states of navbar */
 .topnav a, .topnav a:visited {
   text-decoration: none;
   color: black;
 }
 
+/* spacing & size of PRODUCT NAMES */
 h3 {
   font-size: 2.5vh;
   margin-top: 2.5vh;
 }
 
+/* add underline when hovering over PRODUCT NAME */
+h3:hover {
+  text-decoration: underline;
+}
+
+/* spacing & size of PRICES */
 h5 {
   letter-spacing: 0.25vh;
   font-size: 1.5vh;
   line-height: 2vh;
 }
 
+/* spacing / size / position of PRODUCT DESCRIPTIONS */
 h6 {
   letter-spacing: 0.15vh;
   font-size: 1.5vh;
@@ -57,10 +70,12 @@ h6 {
   text-align: left;
 }
 
+/* make everything on page border box sizing */
 body * {
   box-sizing: border-box;
 }
 
+/* create a 3-column grid with these spacing rules & a border around it */
 #contentGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,20 +89,21 @@ body * {
   padding: 4vh;
 }
 
-/* #contentGrid:first-child  {
-display: flex;
-flex-direction: column;
-padding: 1vmin;
-border: 2px solid black;
-border-radius: 0.25vmin;
-height: 100%;
-} */
-
-
+/* size of product photos & transition rules when hovering */
 .productPhoto {
   width: 80%;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
+/* opacity lessens when hovering over product photos */
+img:hover {
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+/* remove underlines for these states of the footer */
 footer, footer a:link, footer a:visited, footer a:active {
   text-decoration: none;
   text-align: center;
@@ -96,11 +112,13 @@ footer, footer a:link, footer a:visited, footer a:active {
   font-size: 1.7vh;
 }
 
+/* make text green & add underline when hovering over footer text */
 footer a:hover {
   color: green;
   text-decoration: underline;
 }
 
+/* sizing for porcupine emoji at the bottom for fun */
 .porcupine {
   font-size: 3vh;
 }
