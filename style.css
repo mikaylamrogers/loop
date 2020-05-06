@@ -75,10 +75,11 @@ body * {
   box-sizing: border-box;
 }
 
-/* create a 3-column grid with these spacing rules & a border around it */
 #contentGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 0.25vmin;
   padding: 1vmin;
   grid-column-gap: 5vmin;
   grid-row-gap: 10vmin;
@@ -88,6 +89,7 @@ body * {
   border-radius: 0.25vmin;
   padding: 4vh;
 }
+
 
 /* size of product photos & transition rules when hovering */
 .productPhoto {
@@ -121,4 +123,35 @@ footer a:hover {
 /* sizing for porcupine emoji at the bottom for fun */
 .porcupine {
   font-size: 3vh;
+}
+
+@media only screen and (min-width: 1084px) {
+  /* create a 3-column grid with these spacing rules & a border around it */
+  #contentGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1vmin;
+    grid-column-gap: 5vmin;
+    grid-row-gap: 10vmin;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 0.25vmin;
+    padding: 4vh;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  #contentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1vmin;
+    grid-column-gap: 5vmin;
+    grid-row-gap: 10vmin;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 0.25vmin;
+    padding: 4vh;
+  }
 }

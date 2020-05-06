@@ -83,10 +83,10 @@ newContentElement.appendChild(newImage);
 contentGridElement.appendChild(newContentElement);
 
 // add event listener to add text images on mouseover (NOT WORKING)
-newImage.addEventListener("mouseover", function(){
-  newImage.getElementById("productPhoto").innerText = "HELLO";
-  // newImage.getElementById("productPhoto").style.opacity = "3s";
-})
+// newImage.addEventListener("mouseover", function(){
+//   newImage.getElementById("productPhoto").innerText = "HELLO";
+//   newImage.getElementById("productPhoto").style.opacity = "3s";
+// })
 
   // newImage.addEventListener("mouseout", function(){
   //   newImage.getElementById("productPhoto").style.opacity = "1";
