@@ -6,7 +6,7 @@ body {
 
 marquee > p {
   /* background-color: white; */
-  height: 20px;
+  height: 3vh;
   overflow: hidden;
   position: relative;
   margin-top: 0;
@@ -23,7 +23,7 @@ h1 {
   padding-top: 0;
   font-size: 8vh;
   text-align: left;
-  line-height: 0px;
+  line-height: 0vh;
 }
 
 .topnav {
@@ -45,15 +45,16 @@ h3 {
 }
 
 h5 {
-  letter-spacing: 1px;
+  letter-spacing: 0.25vh;
   font-size: 1.5vh;
-  line-height: 10px;
+  line-height: 2vh;
 }
 
 h6 {
-  letter-spacing: 1px;
-  font-size: 1.4vh;
-  line-height: 5px;
+  letter-spacing: 0.15vh;
+  font-size: 1.5vh;
+  line-height: 2.5vh;
+  text-align: left;
 }
 
 body * {
@@ -70,7 +71,7 @@ body * {
   justify-content: center;
   border: 2px solid black;
   border-radius: 0.25vmin;
-  padding: 50px;
+  padding: 4vh;
 }
 
 /* #contentGrid:first-child  {
@@ -91,8 +92,8 @@ footer, footer a:link, footer a:visited, footer a:active {
   text-decoration: none;
   text-align: center;
   color: black;
-  line-height: 14px;
-  font-size: 12px;
+  line-height: 3vh;
+  font-size: 1.7vh;
 }
 
 footer a:hover {
