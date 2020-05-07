@@ -14,14 +14,14 @@ let jsonDatabase = [
   {
     "product_image" : "book.jpg",
     "product_name" : "eating nothing & thriving, the loop way",
-    "price" : "30USD",
+    "price" : "35USD",
     "description" : "in-depth how-to guide for the most environmentally conscious diet on the planet by loop's very own pwyneth galtrow",
   },
   {
     "product_image" : "ticket.jpg",
     "product_name" : "your ticket to paradise",
-    "price" : "700USD",
-    "description" : "your weekend package and all-access pass to loop's exclusive wellness retreat, 'loop to health.' enter into a 2-hour workshop spent in your favorite yoga pose, try superfoods developed in our loop lab, and meet your community of fellow galtrow-worshippers'",
+    "price" : "980USD",
+    "description" : "your weekend package and all-access pass to loop's exclusive wellness retreat, 'loop to health.' enter into a 2-hour workshop spent in your favorite yoga pose, try superfoods developed in our loop lab, and meet your community of fellow galtrow-worshippers",
   },
   {
     "product_image" : "mat.jpg",
@@ -50,13 +50,13 @@ let jsonDatabase = [
   {
     "product_image" : "bowl.jpg",
     "product_name" : "cauldron to heal your leaky gut",
-    "price" : "150USD",
+    "price" : "180USD",
     "description" : "stir up your gut-healing positions and release your inner witchery energy"
   },
   {
     "product_image" : "dream.jpg",
     "product_name" : "mushroom oil energy dreamcatcher",
-     "price" : "80USD",
+     "price" : "110USD",
      "description" : "radiates positive energy for a beautiful wake up while hanging above your bed overnight. also ensures meditative, peaceful dreams",
   }
 ]
