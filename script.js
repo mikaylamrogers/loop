@@ -9,7 +9,7 @@ let jsonDatabase = [
      "product_image" : "plates.jpg",
      "product_name" : "hawaiian lava & black sand plate set",
      "price" : "350USD",
-     "description" : "sourced directly from the big island of hawaii, this plate set is enriched with volcanic materials guaranteed to boost your digestive system",
+     "description" : "sourced directly from the big island of hawaii, this plate set is enriched with volcanic materials proven by loop witches to boost your digestive system",
   },
   {
     "product_image" : "book.jpg",
@@ -21,31 +21,31 @@ let jsonDatabase = [
     "product_image" : "ticket.jpg",
     "product_name" : "your ticket to paradise",
     "price" : "700USD",
-    "description" : "your weekend package and all-access pass to loop's exclusive wellness retreat, loop to health",
+    "description" : "your weekend package and all-access pass to loop's exclusive wellness retreat, 'loop to health.' enter into a 2-hour workshop spent in your favorite yoga pose, try superfoods developed in our loop lab, and meet your community of fellow galtrow-worshippers'",
   },
   {
     "product_image" : "mat.jpg",
     "product_name" : "yoga mat made from goddess breath",
     "price" : "110USD",
-    "description" : "this 1 inch platform instantly elevates you into another peaceful state of mind to support you during your practice",
+    "description" : "this 1-inch platform instantly elevates you into a peaceful state of mind to support you during your practice",
   },
   {
      "product_image" : "oil.jpg",
      "product_name" : "get in the loop toe oil",
      "price" : "100USD",
-     "description" : "slather this luxurious matcha-based oil on the tips of your toes as soon as your boss criticizes you. trust us, you'll want to get in the loop",
+     "description" : "slather this luxurious matcha-based oil on the tips of your toes as soon as you begin to feel negative energy. trust us, you'll want to get in the loop",
   },
   {
     "product_image" : "qtips.jpg",
     "product_name" : "egg white infused q-tips ",
     "price" : "55USD",
-    "description" : "clean your ears (and anything else) with the healing benefits of egg whites, which are also proven to improve hearing",
+    "description" : "clean your ears (and anything else) with the healing benefits of egg whites, which have also been proven to improve hearing in meditation classes",
   },
   {
     "product_image" : "pen.jpg",
     "product_name" : "two-in-one writing instrument & needle",
     "price" : "210USD",
-    "description" : "for when you need to jot down an ingredient for your grocery list or need to take a quick shot of kombucha-derived probiotics",
+    "description" : "for when you need to jot down an ingredient for your grocery list or need to take a quick shot of kombucha derived probiotics",
   },
   {
     "product_image" : "bowl.jpg",
@@ -57,7 +57,7 @@ let jsonDatabase = [
     "product_image" : "dream.jpg",
     "product_name" : "mushroom oil energy dreamcatcher",
      "price" : "80USD",
-     "description" : "radiates positive energy for a beautiful wake up while hanging above your bed",
+     "description" : "radiates positive energy for a beautiful wake up while hanging above your bed overnight. also ensures meditative, peaceful dreams",
   }
 ]
 
